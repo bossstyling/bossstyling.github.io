@@ -189,6 +189,10 @@ p.copyright {
     font-weight: 700;
 }
 
+.latest-insta-post-background {
+    background-color: #FF8333 !important;
+}
+
 .brand-title {
     font-size: 32px;
     color: #000000 !important;
