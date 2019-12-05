@@ -213,6 +213,11 @@ border-style: solid;
     font-weight: 700;
 }
 
+.page-subtitle {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
 .page-link {
     color: #000000 !important;
     letter-spacing: 2px;
