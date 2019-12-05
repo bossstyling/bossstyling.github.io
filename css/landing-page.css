@@ -196,3 +196,7 @@ p.copyright {
     src: url('/fonts/OldLondon.ttf');
     font-weight: 700;
 }
+
+.page-link {
+    color: #000000 !important;
+}
