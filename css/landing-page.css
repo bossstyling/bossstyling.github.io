@@ -188,3 +188,11 @@ p.copyright {
     src: url('/fonts/OldLondon.ttf');
     font-weight: 700;
 }
+
+.brand-title {
+    font-size: 32px;
+    color: #000000 !important;
+    font-family: "OldLondon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    src: url('/fonts/OldLondon.ttf');
+    font-weight: 700;
+}
