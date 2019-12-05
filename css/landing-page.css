@@ -215,6 +215,8 @@ border-style: solid;
 
 .page-link {
     color: #000000 !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 hr {
