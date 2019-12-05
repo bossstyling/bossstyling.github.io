@@ -214,8 +214,17 @@ border-color: #000000;
     font-weight: 700;
 }
 
+.page-title {
+    font-size: 100px !important;
+}
+
 .page-subtitle {
     font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.page-subtitle-small {
+    font-size: 10px;
     letter-spacing: 2px;
 }
 
