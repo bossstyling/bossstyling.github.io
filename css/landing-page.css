@@ -169,3 +169,13 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.latest_insta_post_title {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "OldLondon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    src: url('/fonts/OldLondon.ttf');
+    font-weight: 700;
+}
