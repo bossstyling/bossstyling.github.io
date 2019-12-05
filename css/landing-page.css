@@ -170,7 +170,16 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-.latest_insta_post_title {
+.latest-insta-post-title {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "OldLondon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    src: url('/fonts/OldLondon.ttf');
+    font-weight: 700;
+}
+
+.latest-insta-post-sub-title {
     margin-top: 14px;
     font-size: 22px;
     font-weight: 400;
