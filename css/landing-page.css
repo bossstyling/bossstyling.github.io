@@ -215,12 +215,26 @@ border-color: #000000;
     font-size: 100px !important;
 }
 
-.page-subtitle {
+.page-subtitle-one {
+    font-size: 20px;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.page-subtitle-one-small {
+    font-size: 16px;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.page-subtitle-two {
     font-size: 14px;
     letter-spacing: 2px;
 }
 
-.page-subtitle-small {
+.page-subtitle-two-small {
     font-size: 11px;
     letter-spacing: 2px;
 }
