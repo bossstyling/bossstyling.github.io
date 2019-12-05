@@ -193,6 +193,11 @@ p.copyright {
     background-color: #FF8333 !important;
 }
 
+.latest-insta-post-border {
+border: 6px;
+border-style: solid;
+}
+
 .brand-title {
     font-size: 32px;
     color: #000000 !important;
@@ -203,4 +208,12 @@ p.copyright {
 
 .page-link {
     color: #000000 !important;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
 }
