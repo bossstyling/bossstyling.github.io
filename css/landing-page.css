@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /* @font-face {
+    font-family: "OldLondon";
+    src: url('../fonts/OldLondon.ttf');
+    font-weight: 700;
+} */
+
 body,
 html {
     width: 100%;
