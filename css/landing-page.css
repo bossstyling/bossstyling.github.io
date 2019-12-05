@@ -203,6 +203,7 @@ p.copyright {
 .latest-insta-post-border {
 border: 6px;
 border-style: solid;
+border-color: #000000;
 }
 
 .brand-title {
