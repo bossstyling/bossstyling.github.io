@@ -178,12 +178,9 @@ p.copyright {
 }
 
 .latest-insta-post-title {
-    font-size: 50px;
-    font-weight: 400;
     letter-spacing: 2px;
-    font-family: "OldLondon" !important;
-    src: url('../fonts/OldLondon.ttf');
-    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
 .latest-insta-post-sub-title {
