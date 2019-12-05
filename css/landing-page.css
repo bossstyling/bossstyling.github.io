@@ -17,7 +17,7 @@ html {
 }
 
 h1 {
-    font-family: "OldLondon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "OldLondon" !important;
     src: url('../fonts/OldLondon.ttf');
     font-weight: 700;
 }
@@ -181,7 +181,7 @@ p.copyright {
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 2px;
-    font-family: "OldLondon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "OldLondon" !important;
     src: url('../fonts/OldLondon.ttf');
     font-weight: 700;
 }
@@ -191,7 +191,7 @@ p.copyright {
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 2px;
-    font-family: "OldLondon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "OldLondon" !important;
     src: url('../fonts/OldLondon.ttf');
     font-weight: 700;
 }
@@ -208,7 +208,7 @@ border-style: solid;
 .brand-title {
     font-size: 32px;
     color: #000000 !important;
-    font-family: "OldLondon","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "OldLondon" !important;
     src: url('../fonts/OldLondon.ttf');
     font-weight: 700;
 }
