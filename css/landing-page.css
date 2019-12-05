@@ -6,7 +6,7 @@
 
  @font-face {
     font-family: "OldLondon";
-    src: url('../fonts/OldLondon.ttf');
+    src: url('../fonts/OldLondon.ttf') format('truetype');
     font-weight: 700;
 }
 
