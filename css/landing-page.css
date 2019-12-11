@@ -241,8 +241,9 @@ border-color: #000000;
 
 .page-link {
     color: #000000 !important;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    font-weight: 200;
 }
 
 hr {
