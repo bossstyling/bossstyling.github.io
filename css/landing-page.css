@@ -246,6 +246,10 @@ border-color: #000000;
     font-weight: 200;
 }
 
+.page-link-left {
+    border-right: 2px solid #333;
+}
+
 hr {
     border: none;
     height: 3px;
