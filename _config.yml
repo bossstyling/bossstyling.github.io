@@ -9,6 +9,7 @@ author: Boss Styling
 description: Virtual Stylist inspired by the Boss women of the world.
 copyright: 'Copyright &copy; 2019 Boss Styling. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+baseurl:
 
 # ----------------------- #
 #    Jekyll & Plugins     #

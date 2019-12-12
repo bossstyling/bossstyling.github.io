@@ -178,9 +178,10 @@ p.copyright {
 }
 
 .latest-insta-post-title {
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .latest-insta-post-sub-title {
@@ -217,16 +218,16 @@ border-color: #000000;
 
 .page-subtitle-one {
     font-size: 20px;
-    letter-spacing: 2px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    font-weight: 200;
 }
 
 .page-subtitle-one-small {
     font-size: 16px;
-    letter-spacing: 2px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    font-weight: 200;
 }
 
 .page-subtitle-two {
@@ -241,8 +242,13 @@ border-color: #000000;
 
 .page-link {
     color: #000000 !important;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    font-weight: 200;
+}
+
+.page-link-left {
+    border-right: 2px solid #333;
 }
 
 hr {
@@ -251,4 +257,22 @@ hr {
     /* Set the hr color */
     color: #333; /* old IE */
     background-color: #333; /* Modern Browsers */
+}
+
+.subscribe-here-button-container {
+    margin-top: 8px;
+}
+
+.subscribe-here-button {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #FC33FF;
+    border-color: #FC33FF;
 }
