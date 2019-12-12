@@ -9,7 +9,15 @@
                     <h4 class="latest-insta-post-title text-center">Latest Insta Posts</h4>
                     <hr />
                     <div class="row">
-                        <div class="col-lg-4">
+                            {% for instagramPost in site.instagramPosts %}
+                            <div class="col-lg-4">
+                                    <a href="{{ instagramPos.linkUrl }}">
+                                        <img class="img-responsive latest-insta-post-border" src="{{ instagramPost.imgUrl }}" alt="">
+                                    </a>
+                                    <p class="latest-insta-post-sub-title text-center">{{ instagramPost.subTitle }}⁠</p>
+                                </div>
+                            {% endfor %}
+                        <!-- <div class="col-lg-4">
                             <a href="https://www.instagram.com/p/BxU_273BUOO/">
                                 <img class="img-responsive latest-insta-post-border" src="img/latest_insta_posts/BOSS_PINK_SUIT_TRAINER_GREYTOP_STYLING.jpg" alt="">
                             </a>
@@ -26,7 +34,7 @@
                                 <img class="img-responsive latest-insta-post-border" src="img/latest_insta_posts/slave4ubossstyling.jpg" alt="">
                             </a>
                             <p class="latest-insta-post-sub-title text-center">🔥 𝕊𝕃𝔸𝕍𝔼 𝟜 ℕ𝕆𝔹𝕆𝔻𝕐 🔥⁠</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
