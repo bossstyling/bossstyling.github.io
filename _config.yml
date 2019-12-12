@@ -28,3 +28,9 @@ social:
     url: https://instagram.com/bossstyling
   - title: facebook
     url: https://www.facebook.com/Boss-Styling-2169009916487232/
+
+blogPosts:
+  - title: I am blog post number 1
+    description: descripion 1
+  - title: I am blog post number 2
+    description: descripion 2
