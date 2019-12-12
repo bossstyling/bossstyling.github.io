@@ -32,5 +32,7 @@ social:
 blogPosts:
   - title: I am blog post number 1
     description: descripion 1
+    publicationDate: 11/12/2019
   - title: I am blog post number 2
     description: descripion 2
+    publicationDate: 12/12/2019
