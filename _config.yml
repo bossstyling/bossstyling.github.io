@@ -43,8 +43,17 @@ instagramPosts:
 
 blogPosts:
   - title: I am blog post number 1
-    description: descripion 1
-    publicationDate: 11/12/2019
+    description: description 1
+    paragraph: I am paragraph 1
+    imgUrl:
+    publicationDate: 10/12/2019
   - title: I am blog post number 2
-    description: descripion 2
+    description: description 2
+    paragraph: I am paragraph 2
+    imgUrl:
+    publicationDate: 12/12/2019
+  - title: I am blog post number 3
+    description: description 3
+    paragraph: I am paragraph 3
+    imgUrl:
     publicationDate: 12/12/2019
