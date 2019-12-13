@@ -57,6 +57,13 @@ h6 {
     background-color: #000000;
 }
 
+.blog-post-title {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .intro-message {
     position: relative;
     padding-top: 20%;
