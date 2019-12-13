@@ -68,8 +68,8 @@ h6 {
 }
 
 .blog-post-title {
-    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     font-size: 50px !important;
     text-align: center;
     color: #000000;
@@ -89,7 +89,22 @@ h6 {
 }
 
 .blog-post-paragraph {
+    padding-top: 20px;
+    padding-bottom: 50px;
     letter-spacing: 2px;
+}
+
+.blog-post-portrait-image-border {
+    border: 6px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.blog-post-subtitle {
+    margin-top: 14px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .intro-message {
