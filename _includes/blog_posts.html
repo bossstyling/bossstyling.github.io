@@ -1,14 +1,15 @@
 <div class="row">
     <div class="col-md-12">
-        <h4 class="blog-post-title text-center">Blogs</h4>
+        <h4 class="blog-post-section-header">Blogs</h4>
         <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     {% for blogPost in site.blogPosts %}
-                    <div class="col-md-3">
-                        <img class="img-responsive" src="{{ blogPost.imgUrl }}" alt="">
+                    <div class="col-md-12">
+                        <h3 class="blog-post-title">{{ blogPost.title }}</h3>
+                        <img class="img-responsive" src="{{ blogPost.imgUrlOne }}" alt="">
                     </div>
                     <div class="col-md-9">
-                        <h3>{{ blogPost.title }}</h3>
+                        
                         <p>{{ blogPost.description }}</p>
                         <p>{{ blogPost.paragraph }}</p>
                         <span class="badge">{{ blogPost.publicationDate | date_to_string }}</span>
