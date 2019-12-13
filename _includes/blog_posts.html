@@ -7,12 +7,24 @@
                     <div class="col-md-12">
                         <h3 class="blog-post-title">{{ blogPost.title }}</h3>
                         <img class="img-responsive" src="{{ blogPost.imgUrlOne }}" alt="">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <span class="blog-post-publication-date label label-default pull-left">Published {{ blogPost.publicationDate | date_to_string }}<span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-9">
-                        
-                        <p>{{ blogPost.description }}</p>
-                        <p>{{ blogPost.paragraph }}</p>
-                        <span class="badge">{{ blogPost.publicationDate | date_to_string }}</span>
+                    <div class="col-md-12">
+                        <h5 class="blog-post-description">{{ blogPost.description }}</h5>
+                        <p class="blog-post-paragraph">{{ blogPost.paragraphOne }}</p>
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4">
+                            <a href="{{ blogPost.imgUrlTwoLink }}">
+                                <img class="img-responsive latest-insta-post-border" src="{{ blogPost.imgUrlTwo }}" alt="">
+                            </a>
+                            <p class="latest-insta-post-sub-title text-center">{{ blogPost.imgUrlTwoSubtitle }}⁠</p>
+                        </div>
+                    </div>
+                        <p class="blog-post-paragraph">{{ blogPost.paragraphTwo }}</p>
                         <hr />
                     </div>
                     {% endfor %}
