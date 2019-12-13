@@ -8,9 +8,14 @@
                         <h3 class="blog-post-title"><u>{{ blogPost.title }}</u></h3>
                         <img class="img-responsive" src="{{ blogPost.imgUrlOne }}" alt="">
                         <div class="row">
-                            <div class="col-md-12">
-                                <span class="blog-post-publication-date label label-default pull-left">Published {{ blogPost.publicationDate | date_to_string }}<span>
+                            <div class="col-md-6">
+                                    <span class="blog-post-publication-date label label-default pull-left">Published {{ blogPost.publicationDate | date_to_string }}<span></span>
                             </div>
+                            <div class="col-md-6">
+                                <span class="blog-post-hashtags label label-info pull-right">#womenswear</span>
+                                &nbsp;
+                                <span class="blog-post-hashtags label label-info pull-right">#casual</span>
+                        </div>
                         </div>
                     </div>
                     <div class="col-md-12">
