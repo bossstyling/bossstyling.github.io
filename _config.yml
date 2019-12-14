@@ -27,6 +27,10 @@ permalink: pretty
 # ------------------------------------------------ #
 # ------------------------------------------------ #
 
+# ----------------------------- #
+#   Email Subscription Config   #
+# ----------------------------- #
+emailSubscriptionMailTo: mailto:bossstyling@hotmail.com?subject=I'd like to subscribe&body=Hi, I'd like to subscribe to Boss Styling please, thank you!
 
 # --------------------------------------------- #
 #   Configure Social Media Links On Home Page   #
