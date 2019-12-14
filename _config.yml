@@ -20,15 +20,29 @@ baseurl:
 markdown: kramdown
 permalink: pretty
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
+
+# ------------------------------------------------ #
+# ------------------------------------------------ #
+#   The Following Configures The Website Content   #
+# ------------------------------------------------ #
+# ------------------------------------------------ #
+
+
+# --------------------------------------------- #
+#   Configure Social Media Links On Home Page   #
+# --------------------------------------------- #
 
 social:
   - title: instagram
     url: https://instagram.com/bossstyling
   - title: facebook
     url: https://www.facebook.com/Boss-Styling-2169009916487232/
+
+
+
+# ------------------------------------------ #
+#   Write New Instagram Posts On Home Page   #
+# ------------------------------------------ #
 
 instagramPosts:
   - linkUrl: https://www.instagram.com/p/BxU_273BUOO/
@@ -40,6 +54,12 @@ instagramPosts:
   - linkUrl: https://www.instagram.com/p/BzI7ZeegsTL/
     imgUrl: img/latest_insta_posts/slave4ubossstyling.jpg
     subTitle: 🔥 𝕊𝕃𝔸𝕍𝔼 𝟜 ℕ𝕆𝔹𝕆𝔻𝕐 🔥
+
+
+
+# ------------------------------------- #
+#   Write New Blog Posts On Blog Page   #
+# ------------------------------------- #
 
 blogPosts:
   - title: Smasual Womenswear Is On Trend
