@@ -15,9 +15,9 @@
                         <h3 class="page-subtitle-two-small visible-xs visible-sm">🔥 {{ page.subTitleTwo }} 🔥</h3>
 						<hr class="intro-divider">
 						<ul class="list-inline intro-social-buttons">
-							{% for social in site.social %}
+							{% for socialMediaButton in site.socialMediaButtons %}
 							<li>
-								<a href="{{ social.url }}" class="btn btn-default btn-sm"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+								<a href="{{ socialMediaButton.url }}" class="btn btn-default btn-sm"><i class="fa fa-{{ socialMediaButton.socialMediaCompanyName }} fa-fw"></i> <span class="network-name">{{ socialMediaButton.socialMediaCompanyName }}</span></a>
 							</li>
 							{% endfor %}
 						</ul>

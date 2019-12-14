@@ -32,10 +32,10 @@ permalink: pretty
 #   Configure Social Media Links On Home Page   #
 # --------------------------------------------- #
 
-social:
-  - title: instagram
+socialMediaButtons:
+  - socialMediaCompanyName: instagram
     url: https://instagram.com/bossstyling
-  - title: facebook
+  - socialMediaCompanyName: facebook
     url: https://www.facebook.com/Boss-Styling-2169009916487232/
 
 
